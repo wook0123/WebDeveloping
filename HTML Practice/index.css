@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Bareun1";
+    src: url(Fonts/BareunDotumPro1.ttf);
+}
+
+@font-face {
+    font-family: "Bareun3";
+    src: url("Fonts/BareunDotumPro2.ttf");
+}
+
+.headercontainer {
+    padding: 10 10 0 10;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 2px auto;
+    justify-content: space-between;
+}
+
+.back_to_main {
+    width: 120px;
+    height: 40px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.head_title {
+    font-size: 2rem;
+    color: black;
+    font-family: "Bareun1";
+}
+
+.top_icon_mother {
+    display: flex;
+    padding: 4px;
+    width: 90px;
+    justify-content: space-between;
+}
+
+.top_icon_box {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+
+.ProfileContainer {
+    width: 360px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.ProfileImageCircle{
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: purple;
+    object-fit: cover;
+}
+
+.NameCardText {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.NameCardImage{
+    margin-top: 10px;
+    max-width: 700px;
+    object-fit: cover;
+}
+
+.bodycontainer {
+    width: 360px;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    /* color: #fff; */
+    justify-content: center;
+    margin: 0 auto;
+    /* border-bottom-width: 2px */
+    /* 이거 아님 solid를 해야되는구나시발 오호라잇 하하하하하하ㅏㅎ하ㅏㅎㅈㅅ,,*/
+    /* 
+    볼더 바텀을 추가해!
+    컴터: 추가했어.
+    왜안나와?
+    컴터:색상도 없잖아? 어찌나와 대화하듯이 좀 생각을 해볼게요 감사합니다
+     */
+    border-bottom: 1px solid black;
+}
+
+
+.wrapper-image {
+  width: 360px;
+  height: 240px;
+  border-radius: 10px;
+  line-height: 0;
+}
+
+.blog-image {
+  width: 360px;
+  height: 240px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 20px;
+  color: black;
+  font-family: "Bareun3";
+}
+
+.description {
+  font-size: 1rem;
+  color: black;
+  overflow: hidden;
+  text-align: left;
+  font-family: "Bareun1";
+}
+
+.date {
+  font-size: 12px;
+  color: black;
+}
+
+.hr {
+    width: 360px;
+}
